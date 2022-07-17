@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+    width: 100%;
+    height: 100vh;
+}
+
+.form-conteiner {
+
+}
+
+.title h1 {
+    margin-bottom: 20px;
+}
+.title span {
+    border-bottom: 3px solid #484098;
+}
+
+.email-login {
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+.email-login i {
+    color: #484098;
+}
+.email-login input {
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+}
+
+.password-login {
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+.password-login i {
+    color: #484098;
+}
+.password-login input { 
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+}
+
+.fotgot-your-password {
+    margin-bottom: 10px;
+}
+.fotgot-your-password a {
+    color: #484098;
+    text-decoration: none;
+}
+
+.enter-conteiner {
+    margin-bottom: 10px;
+}
+.enter-conteiner button {
+    background-color: #484098;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.enter-conteiner button:hover {
+    cursor: pointer;
+}
+
+.or {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.or p {
+    text-transform: lowercase;
+    font-size: 1.1rem;
+}
+
+.conteiner-social-networks {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 150px;
+}
+.social-networks li:hover {
+    cursor: pointer;
+}
+.social-networks img {
+    width: 25px;
+}
+
+.create-account {
+
+}
+.create-account a {
+    text-decoration: none;
+    color: #484098;
+}
+
+.img-fundo {
+    width: 500px;
+}
+
+@media(max-width: 1000px){
+    .conteiner-image {
+        display: none;
+    }
+}
